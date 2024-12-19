@@ -1,0 +1,46 @@
+
+ h1{color: rgb(0, 0, 0);
+   font-size: 30px;
+   text-align: center;
+   
+ }
+ p{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+ }
+ img{height: 250px;}
+
+ button {
+  padding: 10px 15px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 50px;
+  font-weight: bold;
+  border: 2px solid black;
+  background: peru;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.4);
+
+}
+
+span{
+background: gray;
+height: 100%;
+width: 0;
+border-radius: 50px;
+position: absolute;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition: 0.7s;
+}
+button:hover span{
+width: 100%;
+}
+
+button:hover {background: gray;
+border:2px solid rgb(63, 61, 61);
+}

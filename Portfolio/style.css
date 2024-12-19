@@ -1,0 +1,641 @@
+/* Body CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header CSS */
+
+.header {
+    height: 3.5vw;
+    width: 100%;
+    display: flex;
+    padding-left: 8vw;
+    padding-right: 5vw;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* background-color: #4343c1; */
+    background: linear-gradient(to top, rgba(60, 60, 130, 1), rgba(0, 0, 0, 01));
+}
+
+.logo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pic_logo {
+    margin: 10px;
+    width: 3vw;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 50%;
+}
+
+.nav_link {
+    color: white;
+    height: 3.5vw;
+    width: 100%;
+    font-size: 1.1vw;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    /* font-size: 20px; */
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Banner CSS */
+
+.banner {
+    background-image: linear-gradient(to bottom, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0));
+    padding-left: 8vw;
+    padding-right: 5vw;
+    height: 35vw;
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(198, 205, 255); */
+}
+
+.details {
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3vw;
+}
+
+.p1 {
+    font-size: 3vw;
+    text-shadow: rgb(15, 62, 133) 6px 6px 5px;
+    color: white;
+}
+
+.p2 {
+    font-size: 4.5vw;
+    font-weight: bold;
+    color: #4343c1;
+    text-shadow: rgb(16, 16, 21) 4px 5px 7px;
+}
+
+.p3 {
+    font-size: 1.2vw;
+    text-shadow: rgb(40, 40, 40) 2px 2px 4px;
+}
+
+/* .btn {
+    display: flex;
+    justify-content: center;
+} */
+
+button {
+    margin-top: 1.5vw;
+    justify-content: center;
+    font-size: 1.2vw;
+    height: 3.5vw;
+    width: 10vw;
+    color: white;
+    background: #4343c1;
+    border-radius: 1vw;
+    transition: 0.5s;
+    border-color: #4343c1;
+    text-shadow: rgb(34, 42, 105) 2px 2px 3px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 1.23vw;
+    font-weight: bold;
+    color: #4343c1;
+    background-color: white;
+    border-color: #4343c1;
+}
+
+/* Profile pic CSS */
+
+.pic {
+    padding-right: 3vw;
+    width: 25%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    /* transition: 0.5s; */
+}
+
+img {
+    display: flex;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* 
+.pic:hover{
+    width: 33%;
+} */
+
+/* Projects CSS */
+
+.project {
+    margin-top: 5vw;
+    background-image: linear-gradient(to top, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 30vw;
+}
+
+.project_title {
+    padding-left: 8%;
+    font-size: 2.5vw;
+    font-weight: 300;
+    text-shadow: rgb(36, 36, 36) 3px 3px 4px;
+    text-decoration: dotted;
+}
+
+.project_div {
+    margin-left: 8vw;
+    padding: 3vw 0vw;
+    width: 84vw;
+    display: flex;
+    column-gap: 4vw;
+}
+
+.project1 {
+    width: 20vw;
+    padding: 1.2vw;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1vw;
+    box-shadow: 4px 4px 1.2vw #4343c1;
+    background-color: white;
+}
+
+h2 {
+    font-size: 1.4vw;
+    color: #4343c1;
+    margin-top: 0.5vw;
+    margin-bottom: 1.2vw;
+}
+
+.icon {
+    text-shadow: rgb(36, 36, 36) 2px 2px 5px;
+    font-size: 2.8vw;
+    color: #86868e;
+    cursor: pointer;
+}
+
+/* Achievement CSS */
+
+.achievement {
+    width: 100%;
+    height: 20vw;
+    background-color: #d8d7fb;
+}
+
+.achv_1 {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1vw;
+}
+
+.num {
+    font-weight: bold;
+    font-size: 5vw;
+    text-shadow: rgb(100, 100, 100) 3px 3px 4px;
+}
+
+.content {
+    font-size: 1.5vw;
+}
+
+/* Quate CSS */
+
+.quote {
+    height: 30vw;
+    background-image: url(quote.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    padding: 5vw 8vw;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+
+}
+
+.quote_area {
+    width: 100%;
+    padding: 30px opx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp_email {
+    width: 60VW;
+    height: 3.3vw;
+    border: 2px solid white;
+    border-radius: 0.6vw;
+    font-size: 1.3vw;
+    background-color: transparent;
+    text-indent: 3vw;
+    color: white;
+}
+
+/* psudo element */
+/* ::placeholder {
+    color: white; 
+    font-size: 1vw; 
+} */
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    text-shadow: none;
+}
+
+/* footer */
+
+.footer {
+    /* background-image: linear-gradient(to bottom, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0)); */
+    background-color: #86868e;
+}
+
+.ft_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vw;
+}
+
+.ft_div1 {
+    height: 14vw;
+    width: 15vw;
+    padding: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+    font-size: 0.8vw;
+    /* border: 2px solid #4343c1; */
+    border-radius: 1vw;
+    box-shadow: 4px 4px 1.2vw #ffffff;
+}
+
+.list {
+    color: black;
+    text-decoration: none;
+}
+
+.list:hover {
+    color: black;
+}
+
+
+.ft_div2 {
+    height: 14vw;
+    width: 20vw;
+    padding: 1.8vw 2vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8vw;
+    font-size: 0.8vw;
+    /* border: 2px solid #4343c1; */
+    border-radius: 1vw;
+    box-shadow: 4px 4px 1.2vw #ffffff;
+}
+
+h3 {
+    font-size: 1.7vw;
+}
+
+.map {
+    height: 14vw;
+    width: 40vw;
+    /* border: 2px solid #4343c1; */
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 1.2vw #ffffff;
+    /* background-color: white; */
+}
+
+.ft {
+    height:5vw;
+    padding-bottom: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3vw;
+}
+
+.ft_end {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 3.5vw;
+    height: 3.5vw;
+    background-color: transparent;
+
+}
+
+.wtsp {
+    color: rgb(55, 55, 55);
+}
+
+.wtsp:hover {
+    color: rgb(25, 111, 28);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.fb {
+    color: rgb(55, 55, 55);
+}
+
+.fb:hover {
+    color: rgb(0, 53, 226);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.insta {
+    color: rgb(55, 55, 55);
+}
+
+.insta:hover {
+    color: rgb(129, 34, 176);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.lin {
+    color: rgb(55, 55, 55);
+}
+
+.lin:hover {
+    color: rgb(41, 114, 233);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.git {
+    color: rgb(55, 55, 55);
+}
+
+.git:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.mail {
+    color: rgb(55, 55, 55);
+}
+
+.mail:hover {
+    color: rgb(255, 59, 45);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.call {
+    color: rgb(55, 55, 55);
+}
+
+.call:hover {
+    color: rgb(19, 162, 52);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+/* CSS for contact me page */
+
+
+
+.main {
+    /* padding-top: 3vw; */
+    width: 100%;
+    /* height: 60vw; */
+    background-image: linear-gradient(to bottom, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+}
+
+.main_s {
+    margin: 5vw 0vw;
+    width: 335px;
+    height: 700px;
+    background-color: rgb(214, 216, 246);
+    box-shadow: 1.5vw 1.5vw 2.5vw #000000;
+    border: 10px solid black;
+    border-radius: 45px;
+    /* background-image: url(contact.jpg); */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dl{
+    /* margin-top: 5px; */
+    width: 33%;
+    height: 22px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact {
+    padding-top: 50px;
+    /* background: peru; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.home{
+    margin-top: 95px;
+    width: 38%;
+    height: 5px;
+    background: #8a8989;
+    border-radius: 50px;
+}
+
+.in {
+    font-size: 16px;
+    padding: 20px;
+    border: 2px solid;
+    width: 250px;
+    height: 40px;
+    border-radius:8px;
+}
+
+.input {
+    font-size: 20px;
+}
+
+.msg {
+    font-size: 30px;
+    color: #4343c1;
+}
+
+.submit{
+    width: 140px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.submit:hover{
+    font-size: 20.5px;
+    font-weight: bold;
+}
+
+/* CSS for certificate page */
+
+.box {
+    padding: 3vw;
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0));
+  }
+  
+  .wrap {
+    position: relative;
+    max-width: 50vw;  
+  }
+  
+  .slide {
+    /* border: 2px solid gray; */
+    border-radius: 1vw;
+    display: flex;
+    aspect-ratio: 16/11;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 2vw 2vw 3vw 1vw rgba(50, 50, 50, 2);
+  }
+
+  .c{
+    border-radius: 1vw;
+  }
+  
+  .slide img {
+    flex: 1 0 100% ;
+    scroll-snap-align: start ;
+    scroll-behavior: smooth;
+    object-fit: cover ;
+    transition: 10s;
+  }
+  
+  .slider_nav {
+    display: flex;
+    column-gap: 1vw;
+    position: absolute;
+    bottom: -3vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  .slider_nav a{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: #4343c1;
+    opacity: 0.75;
+    transition: opacity ease 2s;
+  }
+  
+  .slider_nav a:hover{
+    opacity: 1;
+    background-color: black;
+  }
+
+.education{
+    width: 100%;
+    height: 50vw;
+    background-image: linear-gradient(to bottom, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0));
+}
+
+.class10th{
+    margin-left: 8vw;
+    padding-top: 5vw;
+    width: 80%;
+    font-size: 1.5vw;
+}
+
+.class10th_h{
+    display: flex;
+    row-gap: 0.5vw;
+    flex-direction: column;
+}
+
+.class12th{
+    margin-left: 8vw;
+    padding-top: 5vw;
+    width: 80%;
+    font-size: 1.5vw;
+}
+
+.class12th_h{
+    display: flex;
+    row-gap: 0.5vw;
+    flex-direction: column;
+}
+
+.UG{
+    margin-left: 8vw;
+    padding-top: 5vw;
+    width: 80%;
+    font-size: 1.5vw;
+}
+
+.UG_h{
+    display: flex;
+    row-gap: 0.5vw;
+    flex-direction: column;
+}

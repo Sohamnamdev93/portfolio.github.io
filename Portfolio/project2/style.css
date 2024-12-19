@@ -1,0 +1,537 @@
+/* Body CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* Header CSS */
+.header {
+    height: 3.5vw;
+    width: 100%;
+    display: flex;
+    padding-left: 8vw;
+    padding-right: 5vw;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* background-color: #4343c1; */
+    background: linear-gradient(to top, rgb(224, 197, 146), rgb(134, 67, 4));
+}
+.logo {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pic_logo {
+    margin: 10px;
+    width: 3vw;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+.nav {
+    width: 50%;
+}
+.nav_link {
+    color: black;
+    height: 3.5vw;
+    width: 100%;
+    font-size: 1.1vw;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+li:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+button {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    justify-content: center;
+    font-size: 1vw;
+    font-weight: bold;
+    height: 3.5vw;
+    width: 10vw;
+    color: white;
+    background: #d47509;
+    border-radius: 1vw;
+    transition: 0.5s;
+    border-color: #d47509;
+    cursor: pointer;
+}
+button:hover {
+    font-size: 1.05vw;
+    color: black;
+    background-color: white;
+    border-color: #000000;
+}
+img {
+    display: flex;
+    width: 100%;
+    border-radius: 50%;
+}
+.project_div {
+    margin-left: 8vw;
+    padding: 3vw 0vw;
+    width: 84vw;
+    display: flex;
+    column-gap: 4vw;
+}
+.project1 {
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0.5vw 0.5vw 1.2vw #a43b03;
+}
+.icon {
+    text-shadow: rgb(36, 36, 36) 2px 2px 5px;
+    font-size: 2.8vw;
+    /* color: #86868e; */
+    cursor: pointer;
+}
+/* footer CSS */
+.footer {
+    background-color: rgb(243, 241, 209);
+}
+.ft_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vw;
+}
+.ft_div1 {
+    height: 14vw;
+    width: 15vw;
+    padding: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+    /* border: 2px solid #4343c1; */
+    font-size: 0.8vw;
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw #a43b03;
+}
+.ft_div2 {
+    height: 14vw;
+    width: 20vw;
+    padding: 1.8vw 2vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8vw;
+    font-size: 0.8vw;
+    /* border: 2px solid #4343c1; */
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw #a43b03;
+}
+h3 {
+    font-size: 1.7vw;
+}
+.map {
+    height: 14vw;
+    width: 40vw;
+    /* border: 2px solid #4343c1; */
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5vw 0.5vw 1.2vw #a43b03;
+    /* background-color: white; */
+}
+.ft {
+    height:5vw;
+    padding-bottom: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3vw;
+}
+.ft_end {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 3.5vw;
+    height: 3.5vw;
+    background-color: transparent;
+    
+}
+.wtsp {
+    color: rgb(55, 55, 55);
+}
+.wtsp:hover {
+    color: rgb(25, 111, 28);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+.fb {
+    color: rgb(55, 55, 55);
+}
+.fb:hover {
+    color: rgb(0, 53, 226);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+.insta {
+    color: rgb(55, 55, 55);
+}
+.insta:hover {
+    color: rgb(129, 34, 176);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+.lin {
+    color: rgb(55, 55, 55);
+}
+.lin:hover {
+    color: rgb(41, 114, 233);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+.git {
+    color: rgb(55, 55, 55);
+}
+.git:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+.mail {
+    color: rgb(55, 55, 55);
+}
+.mail:hover {
+    color: rgb(255, 59, 45);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+.call {
+    color: rgb(55, 55, 55);
+}
+.call:hover {
+    color: rgb(19, 162, 52);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+/*  Ecube main CSS */
+.ecube{
+    width: 100%;
+    height: 50vw;
+    background-image: url('bg1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.ecube_h{
+    width: 60%;
+    text-align: center;
+}
+.ecube_h h1{
+    padding: 2vw;
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: underline;
+}
+.p1{
+    font-size: 2vw;
+    color: white;
+}
+.p2{
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    }
+.p3{
+    background-color: #f9e1ba;
+    border-radius: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vw;
+    margin-top: 5vw;
+    width: 60vw;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(91, 48, 5);
+}
+/* Tournament CSS */
+.tournament{
+    background-image: url('bg6.png');
+    width: 100%;
+    height: 50vw;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .t-head{
+    width: 72%;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
+    color: white;
+    justify-content: center;
+ }
+ .t-head h1{
+    width: 60%;
+    height: 5vw;
+    border-radius: 50vw;
+    background: #76420e;
+    font-size: 2.5vw;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .t-price{
+    margin: 5vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+ }
+.same{
+    width: 60vw;
+    border-radius: 1vw;
+    background: linear-gradient(to top, rgb(250, 250, 250), rgb(0, 0, 1));
+    height: 5.5vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vw;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: bold;
+    box-shadow: 0.5vw 0.5vw 1.2vw #a43b03;
+}
+.same button{
+    width: 10vw;
+    height: 3.2vw;
+    border-radius: 50vw;
+    font-size: 1.5vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw #a43b03;
+}
+.same button:hover{
+    background-color: #f9d69e;
+}
+.t-end{
+    color: #fff;
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-bottom: 2vw;
+}
+/* CSS for Explore now page*/
+.explore{
+    width: 100%;
+    background-image: url('bg2.png');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(241, 111, 13);
+}
+.explore h1{
+    padding: 2vw;
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+.explore p{
+    background-color: rgb(250,250,250);
+    padding-left: 9vw;
+    font-size: 1.3vw;
+}
+.explore a {
+    padding-left: 9vw;
+}
+.explore button{
+    font-size: 1.2vw;
+}
+.explore button:hover{
+    font-size: 1.28vw;
+}
+/* CSS for introduction page */
+.introduction{
+    background-image: url('bg3.png');
+    background-position: center;
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+    overflow: scroll;
+    background-color: rgb(51, 48, 48);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+}
+.introduction h1{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.introduction p{
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 3vw;
+}
+.gameplay{
+    background-image: url('bg4.png');
+    background-position: center;
+    height: 50vw;
+    overflow:scroll ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5vw;
+    background-color: rgb(51, 48, 48)
+}
+.gameplay h1{
+    text-align: center;
+    color: #fff;
+    margin: 1vw;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+.gameplay p{
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+}
+.gameplay li{
+    color: #fff;
+    padding-left: 2vw;
+    font-size: 2vw;
+}
+/* CSS for growth */
+.growth{
+    background-image: url('bg5.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+    overflow: scroll;
+    background-color: #0f253e;
+    color: #fff;
+}
+.growth h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 2vw;
+    font-size: 3vw;
+}
+.growth p{
+    font-size: 1.2vw;
+    margin-left: 3vw;
+}
+.growth p u {
+    font-size: 2vw;
+}
+/* CSS for contactus page */
+.main {
+    padding-top: 25px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(186, 113, 10), rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+}
+.main_s {
+    margin: 40px 0px;
+    width: 335px;
+    height: 700px;
+    background-color: rgb(237, 217, 209);
+    box-shadow: 1.5vw 1.5vw 2.5vw #000000;
+    border: 10px solid black;
+    border-radius: 45px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.dl{
+    width: 33%;
+    height: 22px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact {
+    /* background-color: peru; */
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+.msg {
+    font-size: 30px;
+    color: #75380f;
+}
+.in {
+    font-size: 16px;
+    padding: 20px;
+    border: 2px solid;
+    width: 250px;
+    height: 40px;
+    border-radius:8px;
+}
+.input {
+    font-size: 20px;
+}
+.submit{
+    width: 140px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.submit:hover{
+    font-size: 20.5px;
+    font-weight: bold;
+}
+.home{
+    margin-top: 70px;
+    width: 38%;
+    height: 5px;
+    background: #8a8989;
+    border-radius: 50px;
+}
+.main_s form button{
+    margin: 20px;
+}
+/* CSS for solo */
+.solo{
+    width: 100%;
+    height: 50vw;
+    background-image: linear-gradient(to bottom, rgb(186, 113, 10), rgba(0, 0, 0, 0));
+}
+.solo-h{
+    text-align: center;
+    /* text-decoration: underline; */
+    font-size: 3.5vw;
+    padding-top: 2vw;
+}
+.solo-p{
+    text-align: center;
+    font-size: 1vw;
+}

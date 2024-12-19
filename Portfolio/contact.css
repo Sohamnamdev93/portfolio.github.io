@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header CSS */
+
+.header {
+    height: 3.5vw;
+    width: 100%;
+    display: flex;
+    padding-left: 8vw;
+    padding-right: 5vw;
+    justify-content: space-between;
+    position: fixed;
+    /* background-color: #4343c1; */
+    background: linear-gradient(to top, rgba(60, 60, 130, 0.2), rgba(25, 30, 60, 9));
+}
+
+.logo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pic_logo{
+    margin: 10px;
+    width: 3vw;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 50%;
+}
+
+.nav_link {
+    color: white;
+    height: 3.5vw;
+    width: 100%;
+    font-size: 1.1vw;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+ }
+
+li:hover {
+    /* font-size: 20px; */
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+.pic {
+    padding-right: 3vw;
+    width: 25%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    /* transition: 0.5s; */
+}
+
+img {
+    display: flex;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* footer */
+
+.project_div{
+    margin-left: 8vw;
+    padding: 4vw 0vw;
+    width: 84vw;
+    display: flex;
+    column-gap: 4vw;
+}
+
+.footer{
+    background-image: linear-gradient(to bottom, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0));
+}
+
+.ft_list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vw;
+}
+
+.ft_div1{
+    height: 16vw;
+    width: 20vw;
+    padding: 1.8vw 3vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+    font-size: 1vw;
+    border: 2px solid #4343c1 ;
+    border-radius: 1vw;
+    box-shadow: 4px 4px 1.2vw #4343c1;
+}
+
+.list{
+    color: black;
+    text-decoration: none;
+}
+
+.list:hover{
+    color: black;
+}
+
+
+.ft_div2{
+    height: 16vw;
+    width: 22vw;
+    padding: 1.8vw 2vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8vw;
+    font-size: 1vw;
+    border: 2px solid #4343c1 ;
+    border-radius: 1vw;
+    box-shadow: 4px 4px 1.2vw #4343c1;
+}
+
+h3{ 
+    font-size: 1.7vw;
+}
+
+.map{
+    height: 16vw;
+    width: 40vw;
+    border: 2px solid #4343c1 ;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 1.2vw #4343c1;
+    background-color: white;
+}
+
+.ft{
+    background-image: linear-gradient(to top, rgba(60, 60, 130, 1), rgba(0, 0, 0, 0));
+}
+
+.ft_end{
+    width: 5vw;
+    height: 5vw;
+    background-color: transparent;
+
+}
+
+.icon{
+    text-shadow: rgb(36, 36, 36) 2px 2px 5px;
+    font-size: 2.8vw;
+    color: #86868e;
+    cursor: pointer;
+}
+
+.wtsp{
+    color: rgb(55, 55, 55);
+}
+
+.wtsp:hover{
+    color: rgb(25, 111, 28);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.fb{
+    color: rgb(55, 55, 55);
+}
+
+.fb:hover{
+    color: rgb(0, 53, 226);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.insta{
+    color: rgb(55, 55, 55);
+}
+
+.insta:hover{
+    color: rgb(129, 34, 176);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.lin{
+    color: rgb(55, 55, 55);
+}
+
+.lin:hover{
+    color: rgb(41, 114, 233);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.git{
+    color: rgb(55, 55, 55);
+}
+
+.git:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.mail{
+    color: rgb(55, 55, 55);
+}
+
+.mail:hover{
+    color: rgb(255, 59, 45);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
+
+.call{
+    color: rgb(55, 55, 55);
+}
+
+.call:hover{
+    color: rgb(19, 162, 52);
+    font-weight: bold;
+    text-shadow: rgb(225, 225, 225) 3px 3px 4px;
+}
